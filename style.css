@@ -1,0 +1,104 @@
+body {
+  background: url("https://images-na.ssl-images-amazon.com/images/I/51y6dy0T8sL._SX466_.jpg")
+  no-repeat;
+  background-size: cover;
+font-family: arial;
+color: white;
+}
+
+.container-title {
+  display: flex;
+  justify-content: space-between;
+    border-bottom: 1px white solid;
+    padding: 10px;
+}
+
+.text-title {
+
+text-transform: uppercase;
+font-size: 3vw;
+font-weight: bold;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.fahrenheit-icon {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-self: center;
+  background: white;
+  color: lightblue;
+}
+
+.celsius-icon {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-self: center;
+  border: white 1px solid;
+  margin-left: 5px;
+}
+
+
+.container-days {
+  display: flex;
+  justify-content: center;
+
+}
+
+.day {
+    width: 200px;
+    height: 180px;
+    ;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+.day-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+  .day-content h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .day-content i {
+    align-self: center;
+    padding-bottom: 15%;
+    font-size: 30px;
+
+  }
+
+  .day-text {
+    background:white;
+    align-self: center;
+    width: 90%;
+    text-align: center;
+  }
+
+  .day-text p {
+    line-height: 0;
+  }
+
+  .hight-altitude {
+    color: orange;
+    font-weight: bold;
+  }
+
+  .lower-altitude {
+    color: lightblue;
+    font-size: 13px;
+  }
