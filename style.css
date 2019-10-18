@@ -2,15 +2,16 @@ body {
   background: url("https://images-na.ssl-images-amazon.com/images/I/51y6dy0T8sL._SX466_.jpg")
   no-repeat;
   background-size: cover;
-font-family: arial;
-color: white;
+  font-family: arial;
+  color: white;
+  padding: 5%;
 }
 
 .container-title {
   display: flex;
   justify-content: space-between;
-    border-bottom: 1px white solid;
-    padding: 10px;
+  border-bottom: 2px white solid;
+  padding: 10px;
 }
 
 .text-title {
